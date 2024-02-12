@@ -41,4 +41,7 @@ class Program
                 index++;
             }
         }
+        return resultArray;
+        
     }
+}
