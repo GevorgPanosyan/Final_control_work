@@ -25,7 +25,7 @@ class Program
         int count = 0;
         foreach (string item in array)
         {
-            if (item.Lenght <= 3)
+            if (item.Length <= 3)
             {
                 count++;
             }
@@ -35,7 +35,7 @@ class Program
         int index = 0;
         foreach (string item in array)
         {
-            if (item.Lenght <=3)
+            if (item.Length <=3)
             {
                 resultArray[index] = item;
                 index++;
